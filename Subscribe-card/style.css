@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+body {
+    position: relative;
+}
+
+.btn {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    border-radius: 50px;
+    box-sizing: border-box
+}
+
+.twitter-follow-btn {
+    background-color: #1da1f2;
+    color: white;
+}
+
+.twitter-follow-btn:hover {
+    animation: bounce .5s
+}
+
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Lato;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #f2f5f8
+}
+
+.card {
+    padding: 2.5rem;
+    background-color: #fff;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 17px 26px -8px rgba(151, 172, 193, .6);
+    -moz-box-shadow: 0px 17px 26px -8px rgba(151, 172, 193, .6);
+    box-shadow: 0px 17px 26px -8px rgba(151, 172, 193, .6);
+}
+
+.card .header {
+    text-align: center;
+}
+
+.card p {
+    margin-top: 0.8rem;
+    font-weight: light;
+    color: rgba(0, 0, 0, 0.75);
+    text-align: center;
+}
+
+.card form {
+    margin-top: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.card form input {
+    -webkit-box-flex: 0.75;
+    -ms-flex-positive: 0.75;
+    flex-grow: 0.75;
+    height: 50px;
+    margin-right: 1rem;
+    background-color: #f2f5f8;
+    border: 1px solid rgba(151, 172, 193, 0.75);
+    border-radius: 4px;
+    padding: 0 15px;
+}
+
+.card form button {
+    height: 50px;
+    -webkit-box-flex: 0.25;
+    -ms-flex-positive: 0.25;
+    flex-grow: 0.25;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-transform: uppercase;
+    background-color: #4e9aff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 10px 26px -7px rgba(78, 154, 255, 1);
+    -moz-box-shadow: 0px 10px 26px -7px rgba(78, 154, 255, 1);
+    box-shadow: 0px 10px 26px -7px rgba(78, 154, 255, 1);
+}
+
+.card form button svg {
+    margin-left: 0.5rem;
+}
+
+.info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin-top: 1rem;
+}
+
+.info small {
+    margin-left: 0.5rem;
+}
+
+button:active {
+    transform: scale(0.96);
+}
