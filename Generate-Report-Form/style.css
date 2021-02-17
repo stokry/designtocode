@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #FFFFFF;
+    box-shadow: 0px 49px 46px -20px rgba(1, 27, 162, 0.121099);
+    border-radius: 15px;
+    position: relative;
+    text-align: center;
+    width: 35%;
+}
+
+.form {
+    padding: 60px;
+}
+
+.form-title {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #191B44;
+}
+
+.form-desc {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #191B44;
+}
+
+.checkbox-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inline-label-form>label {
+    width: 14%;
+    display: table-cell;
+    padding-top: 9px;
+    margin: 0;
+    text-align: left;
+    padding-right: 15px;
+    font-weight: 600;
+    color: #32383e;
+    vertical-align: top;
+}
+
+.field-boxes {
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+
+.field-boxes label {
+    display: table;
+    width: 50%;
+    flex-basis: 50%;
+    text-align: left;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    vertical-align: baseline;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.field-boxes label>* {
+    display: table-cell;
+}
+
+.field-boxes label>*:last-child {
+    width: 100%;
+    padding-right: 15px;
+}
+
+.field-boxes label>*[class*="icon-"] {
+    padding-right: 7px;
+}
+
+input[type="checkbox"] {
+    display: inline;
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+}
+
+input[type="checkbox"]:checked:before {
+    background-color: green;
+}
+
+.device {
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.titleDevice {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    padding-top: 40px;
+}
+
+.deviceDesc {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.mobile {
+    background: #FFFFFF;
+    border: 2px solid #6C6AFF;
+    border-radius: 5px;
+    padding: 40px;
+    margin-right: 20px;
+}
+
+.mobile>svg {
+    width: 18px;
+    height: 28px;
+}
+
+.desktop>svg {
+    width: 40px;
+    height: 40px;
+}
+
+.desktop {
+    background: #FFFFFF;
+    border: 1px solid #C9CDE7;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+.reportButton {
+    display: flex;
+    justify-content: center;
+    background: #6C6AFF;
+    border-radius: 10px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+    border: 1px solid white
+}
+
+body {
+    background: #ECEFFF;
+    overflow-x: hidden;
+}

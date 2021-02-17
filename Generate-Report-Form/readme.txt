@@ -1,0 +1,1 @@
+Design was taken from: https://www.uidesigndaily.com/posts/sketch-generate-report-checkbox-settings-day-1282
