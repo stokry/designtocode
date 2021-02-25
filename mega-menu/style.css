@@ -5,6 +5,10 @@
     justify-content: center;
 }
 
+body {
+    background: #172a45;
+}
+
 * {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
@@ -21,6 +25,7 @@ h1 {
     font-weight: 400;
     font-size: 3em;
     text-align: center;
+    color: #ccd6f6
 }
 
 .outer-menu {
