@@ -1,0 +1,35 @@
+:root {
+    --logo-color: #E72502;
+    --border-width: 40px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+
+.youtube {
+    background-color: var(--logo-color);
+    width: 220px;
+    height: 140px;
+    border-radius: 40px;
+    z-index: 99;
+    position: relative;
+}
+
+.youtube:after {
+    content: '';
+    border-top: var(--border-width) solid transparent;
+    border-right: var(--border-width) solid transparent;
+    border-bottom: var(--border-width) solid transparent;
+    border-left: 60px solid #fff;
+    z-index: 100;
+    position: absolute;
+    left: 85px;
+    top: 30px;
+}
